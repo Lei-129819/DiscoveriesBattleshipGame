@@ -6,7 +6,7 @@ package iscteiul.ista.battleship;
 /**
  * Representa uma Caravela no jogo Discoveries Battleship Game.
  * A Caravela é um navio de pequena dimensão (tamanho 2) que ocupa 2 posições na grelha,
- * podendo ser posicionada na horizontal ou vertical consoante a orientação (bearing).
+ * podendo ser posicionada na horizontal ou vertical consoante a orientação (bearing)..
  */
 public class Caravel extends Ship {
     private static final Integer SIZE = 2;
