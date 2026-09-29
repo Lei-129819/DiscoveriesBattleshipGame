@@ -48,3 +48,21 @@ Basic academic version of Battleship game to build upon.
 ### 5. Barca (Barge)
 * **Dimensão:** 1 casa | **Quantidade:** 4
 * **Descrição:** Uma embarcação de pequenas dimensões utilizada nas primeiras fases da navegação costeira e no apoio ao transporte de bens e marinheiros entre a terra firme e os navios maiores ancorados. Devido ao seu tamanho reduzido, é o alvo mais difícil de atingir.
+
+## Regras do jogo
+
+### Preparação do Tabuleiro
+* Cada jogador começa por construir duas grelhas quadriculadas iguais de 10x10 quadrados.
+* Uma das grelhas representa "o seu mar" e a outra "o mar do adversário".
+* Cada jogador deve posicionar os seus navios na sua grelha, seguindo a orientação horizontal ou vertical, sem que o adversário os veja.
+* O número de navios é igual para cada jogador.
+* Os navios devem ser posicionados sem que possam tocar-se entre si, embora possam estar encostados à borda das grelhas.
+
+### Dinâmica de Jogo
+* Depois de os navios terem sido posicionados, cada jogador, à vez, "atira três tiros" sobre a frota adversária.
+* Para cada tiro, o jogador deve referir as respectivas coordenadas (linha, coluna).
+* O adversário deve referir o resultado dessa rajada de três tiros, informando se acertou em um ou mais navios e de que tipo, bem como se foram tiros na água!
+* Cada jogador vai registando na grelha do oponente os resultados dos seus tiros, identificando os navios afundados.
+
+### Fim do Jogo
+* Ganha o jogo o primeiro que atingir todos os navios da frota adversária.
