@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"iscteiul.ista.battleship","c":"Carrack","l":"Carrack(Compass, IPosition)","u":"%3Cinit%3E(iscteiul.ista.battleship.Compass,iscteiul.ista.battleship.IPosition)","k":"3"},{"p":"iscteiul.ista.battleship","c":"Carrack","l":"getSize()"}];updateSearchResults();
