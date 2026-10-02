@@ -1,7 +1,7 @@
 # Discoveries Battleship Game
 
-Versão Académica.
 
+Versão básica académica.
 
 ## Equipa: [Os Navegadores]
 
