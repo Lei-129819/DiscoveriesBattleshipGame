@@ -13,7 +13,7 @@ public class Carrack extends Ship {
 
     /**
      * Calcula e adiciona automaticamente as posições ocupadas pelo navio no tabuleiro,
-     * baseando-se no seu tamanho fixo (3 casas) e na direção apontada pela bússola.
+     * baseando-se no seu tamanho fixo (3 casas) e na direção apontada pela bússola
      *
      * @param bearing A orientação do navio (ex: NORTH, SOUTH, EAST, WEST).
      * @param pos     A posição inicial (coordenada) do navio no tabuleiro.
