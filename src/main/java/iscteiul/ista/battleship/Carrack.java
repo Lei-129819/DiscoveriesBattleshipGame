@@ -3,13 +3,21 @@
  */
 package iscteiul.ista.battleship;
 
+/**
+ * Representa a Nau (Carrack) no jogo Discoveries Battleship.
+ */
+
 public class Carrack extends Ship {
     private static final Integer SIZE = 3;
     private static final String NAME = "Nau";
 
     /**
-     * @param bearing
-     * @param pos
+     * Calcula e adiciona automaticamente as posições ocupadas pelo navio no tabuleiro,
+     * baseando-se no seu tamanho fixo (3 casas) e na direção apontada pela bússola
+     *
+     * @param bearing A orientação do navio (ex: NORTH, SOUTH, EAST, WEST).
+     * @param pos     A posição inicial (coordenada) do navio no tabuleiro.
+     * @throws IllegalArgumentException Se a orientação (bearing) fornecida for inválida.
      */
     public Carrack(Compass bearing, IPosition pos) throws IllegalArgumentException {
         super(Carrack.NAME, bearing, pos);
@@ -29,10 +37,10 @@ public class Carrack extends Ship {
         }
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém o tamanho da embarcação em número de casas.
      *
-     * @see battleship.Ship#getSize()
+     * @return O tamanho da Nau, que corresponde a 3.
      */
     @Override
     public Integer getSize() {
