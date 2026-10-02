@@ -1,6 +1,6 @@
 # Discoveries Battleship Game
 
-Basic academic version of Battleship game to build upon.
+Versão básica académica.
 
 
 ## Equipa: [Os Navegadores]
